@@ -1,4 +1,21 @@
 $(document).ready(function(){
+
+
+	$('.slider_box').owlCarousel({
+	    loop:true,
+	    margin:0,
+	    nav:true,
+	    items:1
+	});
+
+	var eachItem = 0;
+	$('.slider_box .owl-dot').each(function(){
+		eachItem = ++eachItem;
+		$(this).html(eachItem);
+	});
+
+
+
 	/*LANG SELECT*/
 	var	langSelect = $('.lang__select'),
 		langList = $('.lang__list');
