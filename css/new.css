@@ -1,5 +1,7 @@
 
-
+.logo {font-size: 36px; color: #0095df; text-decoration: none; font-weight: bold; margin-top: -14px; margin-bottom: -4px;}
+.logo:hover {color: #0095df; text-decoration: none;}
+.footer__logo {font-size: 36px; color: #99d7f5; text-decoration: none; font-weight: bold; margin-top: -14px;}
 
 .error {padding: 97px 0 140px;}
 .error--h {width: 345px; color: #ffe000; font: normal bold 200px/200px 'Noto Sans'; float: left;}
